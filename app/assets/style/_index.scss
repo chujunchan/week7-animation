@@ -1,0 +1,180 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+	font-weight: 500;
+	font-style: italic;
+}
+img{
+	vertical-align: middle;
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+/*共用容器設定*/
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.bg-dark{
+	background: black;
+}
+
+/*共用元素設定*/
+.d-block{
+    display: block;
+}
+.text-white{
+	color: white;
+}
+.text-center{
+	text-align: center;
+}
+
+/*文字設定*/
+.title{
+	font-size: 80px;
+	line-height: 1.325;
+	font-weight: 900;
+}
+.subtitle{
+	font-size: 64px;
+	line-height: 1.3125;
+}
+.fz-s{
+	font-size: 20px;
+}
+.fz-n{
+	font-size: 24px;
+}
+.lh-1{
+	line-height: 1.75;
+}
+.fw-bold{
+	font-weight: 700;
+}
+.fs-normal{
+	font-style: normal;
+}
+
+
+/*間距推擠設定*/
+.mb-1{
+	margin-bottom: 4px;
+}
+.mb-2{
+	margin-bottom: 8px;
+}
+.mb-3{
+	margin-bottom: 12px;
+}
+.mb-4{
+	margin-bottom: 16px;
+}
+.mb-5{
+	margin-bottom: 20px;
+}
+.mb-6{
+	margin-bottom: 24px;
+}
+.mb-7{
+	margin-bottom: 28px;
+}
+.mb-8{
+	margin-bottom: 32px;
+}
+.mb-10{
+	margin-bottom: 40px;
+}
+.mb-14{
+	margin-bottom: 56px;
+}
+.mb-17{
+	margin-bottom: 68px;
+}
+.mr-4{
+	margin-right: 16px;
+}
+.mr-6{
+	margin-right: 24px;
+}
+
+
+/*各區塊設定*/
+
+.banner{
+	height: 958px;
+	background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true") center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.banner-link{
+	display: flex;
+}
+.banner-link li a{
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #89181800;
+}
+.banner-link li a:hover{
+	border-bottom: 1px solid #891818;
+}
+.about{
+	padding: 56px 0;
+}
+.about-experience{
+    margin: 0 auto;
+	width: 384px;
+	padding-top: 28px;
+	border-top: 1px solid #000;
+}
+.about-experience li::before{
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-right: 16px;
+	background-color: #891818;
+	border-radius: 50%;
+}
+.mybrand{
+	padding: 56px 0 160px;
+}
+.mybrand-pics{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.works{
+	padding: 56px 0 96px;
+}
+.works-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.works-list li{
+	font-size: 20px;
+	line-height: 2.1;
+	margin-bottom: 48px;
+}
+.works-list img{
+	margin-bottom: 9px;
+}
+.contant{
+	padding: 64px 0;
+}
+.contant-link li a{
+	color: white;
+}
+.contant-link li a:hover{
+	color: gray;
+}
